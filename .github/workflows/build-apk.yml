@@ -48,6 +48,7 @@ jobs:
           BUILD_NUMBER: ${{ github.run_number }}
           REPO: ${{ github.repository }}
           AHOS_SIGNING: ${{ secrets.AHOS_SIGNING }}
+          AHOS_SERVER: ${{ vars.AHOS_SERVER }}
         run: bash ci/build.sh
 
       - name: Publish release
@@ -66,4 +67,3 @@ jobs:
           name: AHOS-Library-apk
           path: ${{ steps.proj.outputs.root }}/dist/*.apk
           retention-days: 30
-          
