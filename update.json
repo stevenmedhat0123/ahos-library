@@ -1,0 +1,26 @@
+{
+  "version": "0.5.0",
+  "build": 11,
+  "channel": "beta",
+  "repo": "stevenmedhat0123/ahos-library",
+  "server": "https://shy-king-cae3ahos-access.stephenmedhat12.workers.dev",
+  "whatsNew": {
+    "en": [
+      "New whiteboard: write and draw on blank paper (white, cream, grid, lines, dots, black, chalkboard) or directly on any PDF. Create one from the + button, or tap the pen button inside the PDF reader.",
+      "Pen, highlighter, shapes (line, arrow, rectangle, circle, triangle, diamond), text with Arabic support, sticky notes, select / move / resize / copy, and many pages.",
+      "Two erasers: remove a whole stroke, or only the part you touch (with an adjustable size).",
+      "Put a PDF, a picture, a video or an audio file from your library inside the board and play it right there while you write.",
+      "Smooth and light: pinch to zoom, two fingers to move, a quick two-finger tap to undo, palm rejection, a pen-only mode, and shape correction (hold the pen still, or automatic).",
+      "Presentation mode with a laser pointer, export as a picture or a PDF, and a web version that opens in Chrome."
+    ],
+    "ar": [
+      "سبورة جديدة: اكتب وارسم على ورقة فاضية (أبيض، كريمي، مربعات، سطور، نقط، أسود، سبورة خضراء) أو مباشرة على أي PDF. اعملها من زرار + أو اضغط زرار القلم جوه قارئ الـPDF.",
+      "قلم وهايلايتر وأشكال (خط، سهم، مستطيل، دائرة، مثلث، معيّن) ونص بيدعم العربي وورق لاصق وتحديد وتحريك وتغيير حجم ونسخ، وصفحات كتير.",
+      "استيكتين: امسح الخط كامل، أو الجزء اللي بتلمسه بس (وتتحكم في الحجم).",
+      "حط PDF أو صورة أو فيديو أو صوت من مكتبتك جوه السبورة وشغّله مكانه وإنت بتكتب.",
+      "سلسة وخفيفة: تكبير بصباعين، وتحريك بصباعين، ونقرة سريعة بصباعين = تراجع، ورفض لمسة الكف، ووضع «القلم فقط»، وتصحيح الأشكال (ثبّت القلم أو تلقائي).",
+      "وضع عرض بمؤشر ليزر، وتصدير كصورة أو PDF، ونسخة ويب بتفتح في Chrome."
+    ]
+  },
+  "web": true
+}
