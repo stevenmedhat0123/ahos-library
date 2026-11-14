@@ -1,0 +1,30 @@
+{
+  "version": "0.9.0",
+  "build": 16,
+  "channel": "stable",
+  "repo": "stevenmedhat0123/ahos-library",
+  "server": "https://shy-king-cae3ahos-access.stephenmedhat12.workers.dev",
+  "whatsNew": {
+    "en": [
+      "Pen: the line appears the very moment the pen touches the board – no pause between the dot and the line – and it is drawn faster, more precisely and smoother.",
+      "Whiteboard Book: a clearer, truly 3D-looking book with a thickness that follows its page count (4 pages = thin), a smaller cover, sharp text on its pages, and it moves around the board without lag.",
+      "Fast page jumping in the book: choose a quick fan of pages or a plain flip (open the book's settings → Page jump).",
+      "Draft: now a loose sheet over the board – choose its size (all board sizes) and colour, drag it by its title bar, resize it from the corner, and keep writing on the board behind it.",
+      "Text on the board: set the size by hand, or switch on Auto size so the letters follow the size of the pen nib. Fewer buttons in the text menu (sticky-note colours appear only when you turn it on).",
+      "Lighter backgrounds (the animated ones no longer slow the app) and a lighter English ruling.",
+      "New setting: Full screen – hides the status bar (clock, wifi, battery) and the buttons bar; a swipe from the edge shows them for a moment and they hide again by themselves. Settings → Appearance.",
+      "PDF reader on a phone: the top bar has room for the title again."
+    ],
+    "ar": [
+      "القلم: الخط بيظهر في نفس اللحظة اللي القلم بيلمس فيها السبورة – مفيش وقفة بين النقطة والخط – وبيترسم أسرع وأدق وأنعم.",
+      "كتاب السبورة: كتاب شكله ثلاثي الأبعاد بجد وأوضح، سُمكه بيمشي مع عدد صفحاته (4 صفحات = رفيع)، وغلاف أصغر، والكلام اللي جوه الصفحات واضح، وبيتحرك على السبورة من غير تقطيع.",
+      "القفز السريع بين صفحات الكتاب: اختار مروحة صفحات سريعة أو قلب عادي (إعدادات الكتاب ← قفز الصفحات).",
+      "المسودة: بقت ورقة سايبة فوق السبورة – تختار مقاسها (كل مقاسات السبورة) ولونها، وتسحبها من شريط عنوانها، وتكبّرها من الركن، وتكمل كتابة على السبورة اللي وراها.",
+      "النص على السبورة: اضبط الحجم بإيدك، أو شغّل «حجم تلقائي» عشان الحروف تمشي مع سُمك سنّ القلم. أزرار أقل في قايمة النص (ألوان الورقة اللاصقة بتظهر لما تشغّلها بس).",
+      "خلفيات أخف (المتحركة مبقتش تبطّأ التطبيق) وتسطير إنجليزي أخف.",
+      "إعداد جديد: ملء الشاشة – بيخفي شريط الحالة (الساعة والواي فاي والبطارية) وشريط الأزرار؛ سحبة من الحافة بتظهرهم لحظة وبيختفوا لوحدهم. الإعدادات ← المظهر.",
+      "قارئ PDF على الموبايل: الشريط العلوي رجّع مساحة للعنوان."
+    ]
+  },
+  "web": true
+}

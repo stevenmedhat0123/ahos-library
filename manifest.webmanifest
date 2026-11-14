@@ -1,0 +1,20 @@
+{
+  "name": "AHOS Library",
+  "short_name": "AHOS",
+  "description": "Your offline library for videos, photos, books and files.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0B1233",
+  "theme_color": "#0B1233",
+  "lang": "ar",
+  "dir": "auto",
+  "categories": ["productivity", "utilities", "books"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

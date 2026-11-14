@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0B1233">
+<meta name="color-scheme" content="dark light">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="description" content="AHOS Library — your offline library for videos, photos, books and files.">
+<title>AHOS Library</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/app.css">
+<script>
+  // Apply language + theme before first paint to avoid a flash.
+  try {
+    var s = JSON.parse(localStorage.getItem('ahos.settings') || '{}'), d = document.documentElement;
+    var l = s.lang || 'ar'; d.lang = l; d.dir = l === 'ar' ? 'rtl' : 'ltr';
+    var th = s.theme || 'dark';
+    if (th === 'auto') th = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    d.dataset.theme = th;
+    d.dataset.skin = s.skin || 'lapis'; d.dataset.accent = s.accent || 'gold'; d.dataset.fx = 'off'; d.dataset.bg = s.bg || 'calm';
+  } catch (e) {}
+</script>
+<!--preload-->
+<link rel="modulepreload" href="js/main.js">
+<link rel="modulepreload" href="js/actions.js">
+<link rel="modulepreload" href="js/app.js">
+<link rel="modulepreload" href="js/auth.js">
+<link rel="modulepreload" href="js/backup.js">
+<link rel="modulepreload" href="js/bg.js">
+<link rel="modulepreload" href="js/brand.js">
+<link rel="modulepreload" href="js/covers.js">
+<link rel="modulepreload" href="js/epub-core.js">
+<link rel="modulepreload" href="js/i18n.js">
+<link rel="modulepreload" href="js/icons.js">
+<link rel="modulepreload" href="js/import.js">
+<link rel="modulepreload" href="js/namekey.js">
+<link rel="modulepreload" href="js/native.js">
+<link rel="modulepreload" href="js/playlists.js">
+<link rel="modulepreload" href="js/server.js">
+<link rel="modulepreload" href="js/storageui.js">
+<link rel="modulepreload" href="js/store.js">
+<link rel="modulepreload" href="js/ui.js">
+<link rel="modulepreload" href="js/updater.js">
+<link rel="modulepreload" href="js/util.js">
+<link rel="modulepreload" href="js/viewers/index.js">
+<link rel="modulepreload" href="js/views/gate.js">
+<link rel="modulepreload" href="js/views/home.js">
+<link rel="modulepreload" href="js/views/library.js">
+<link rel="modulepreload" href="js/views/search.js">
+<link rel="modulepreload" href="js/views/settings.js">
+<link rel="modulepreload" href="js/views/shared.js">
+<link rel="modulepreload" href="js/views/update.js">
+<link rel="modulepreload" href="js/whatsnew.js">
+<!--/preload-->
+</head>
+<body>
+<div id="app"></div>
+<noscript>AHOS Library needs JavaScript.</noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
