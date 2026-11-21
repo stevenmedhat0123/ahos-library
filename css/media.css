@@ -1,0 +1,32 @@
+/* The media sections (Videos, Photos, Audio, PDFs & files, and the merged Player). Loaded the first time one of them opens. The colours come from the
+   section's own --g1 / --g2. */
+.ks { display: flex; flex-direction: column; gap: 14px; padding: 2px 0 28px; }
+.ks > .sec-head { margin: 6px 0 -4px; }
+.ks-hero { position: relative; overflow: hidden; display: flex; align-items: center; gap: 14px; padding: 16px; border-radius: 26px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--g1) 34%, var(--surf)), color-mix(in srgb, var(--g2) 24%, var(--surf)));
+  border: 1px solid color-mix(in srgb, var(--g1) 34%, transparent); }
+.ks-hero::after { content: ''; position: absolute; inset-inline-end: -40px; top: -50px; width: 170px; height: 170px; border-radius: 50%; background: radial-gradient(circle, color-mix(in srgb, var(--g2) 40%, transparent), transparent 70%); pointer-events: none; }
+.ks-ico { flex: none; width: 62px; height: 62px; border-radius: 20px; display: grid; place-items: center; background: linear-gradient(145deg, var(--g1), var(--g2)); box-shadow: 0 10px 24px -10px var(--g1); }
+.ks-ico svg { width: 40px; height: 40px; }
+.ks-info { flex: 1; min-width: 0; position: relative; z-index: 1; }
+.ks-info b { display: block; font-family: var(--font-display); font-size: 22px; font-weight: 800; line-height: 1.15; }
+.ks-info small { display: block; margin-top: 3px; color: var(--text); opacity: .72; font-size: 13.5px; }
+.ks-add { position: relative; z-index: 1; flex: none; min-height: 44px; padding: 0 16px; background: linear-gradient(135deg, var(--g1), var(--g2)); color: #fff; box-shadow: 0 10px 22px -12px var(--g1); }
+.ks-tools { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding: 2px 0; }
+.ks-tools::-webkit-scrollbar { display: none; }
+.ks-chip { flex: none; min-height: 40px; padding: 0 15px; border-radius: 999px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; font-size: 14px; color: var(--text); background: var(--surf-a); border: 1px solid var(--line); }
+.ks-chip > span { display: grid; } .ks-chip svg { width: 18px; height: 18px; }
+.ks-chip.ks-ic { width: 42px; min-height: 42px; padding: 0; justify-content: center; }
+.ks-tools { flex-wrap: wrap; overflow: visible; }
+.ks-chip:active { transform: scale(.96); }
+.ks-seg { display: flex; padding: 4px; gap: 4px; border-radius: 16px; background: var(--surf-a); border: 1px solid var(--line); }
+.ks-segb { flex: 1; min-height: 38px; text-align: center; border-radius: 12px; font-weight: 600; font-size: 13.5px; color: var(--text); opacity: .75; }
+.ks-segb.on { opacity: 1; color: #fff; background: linear-gradient(135deg, var(--g1), var(--g2)); }
+.ks-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.ks-card { position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 16px 14px 14px; text-align: start; border-radius: 24px; min-height: 142px;
+  background: linear-gradient(150deg, color-mix(in srgb, var(--g1) 30%, var(--surf)), color-mix(in srgb, var(--g2) 20%, var(--surf))); border: 1px solid color-mix(in srgb, var(--g1) 32%, transparent); color: var(--text); }
+.ks-card .ks-ico { width: 54px; height: 54px; border-radius: 18px; margin-bottom: 8px; } .ks-card .ks-ico svg { width: 34px; height: 34px; }
+.ks-card b { font-family: var(--font-display); font-size: 18px; font-weight: 800; }
+.ks-card small { opacity: .72; font-size: 12.5px; }
+.ks-card:active { transform: scale(.97); }
+@media (min-width: 720px) { .ks-cards { grid-template-columns: repeat(4, 1fr); } }

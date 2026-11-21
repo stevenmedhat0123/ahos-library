@@ -1,0 +1,30 @@
+{
+  "version": "0.9.2",
+  "build": 18,
+  "channel": "stable",
+  "repo": "stevenmedhat0123/ahos-library",
+  "server": "https://shy-king-cae3ahos-access.stephenmedhat12.workers.dev",
+  "whatsNew": {
+    "en": [
+      "Subtitle Studio (Videos → a video → Create or edit subtitles, or the CC button in the player): type lines against the picture, set each line's start and end on a zoomable timeline, drag the text where you want it, and choose size, colour, background, outline, shadow, font, bold/italic and fade – for the whole track or just one line.",
+      "Tools for fine-tuning: nudge by 0.1 s, split / merge / duplicate lines, shift everything (or from here on), two-point sync, auto duration by reading speed, find & replace, paste a script into lines, check for overlaps and too-fast reading, undo / redo, and it saves itself as you work.",
+      "Save as a normal file: export SRT, VTT or ASS (keeps your styles) to the phone, or save into your library next to the video. Import any SRT / VTT / ASS and keep editing – several subtitle tracks per video.",
+      "In the player: new Subtitle timing (shift earlier or later while watching) and your styled subtitles show exactly as designed, even when the video is zoomed to fill the screen.",
+      "Notifications: a bell with a red count. The owner taps + to write to everyone (with or without a sound); everyone reads them in one list.",
+      "Testing & Publishing (owner): new builds update only your phone first; when you are happy, send that version to members as Beta or Stable, with your own notes in English and Arabic.",
+      "Subscriptions & Codes, Settings, Board and Notes are now sections of their own, and Settings has a search box and clear categories. The section intro now appears at once, without flashing the page underneath.",
+      "Player: a Recent videos strip, the red camera mark is gone from video cards, and a newly added video shows at once without pull-to-refresh."
+    ],
+    "ar": [
+      "استوديو الترجمة (الفيديوهات ← فيديو ← إنشاء أو تعديل ترجمة، أو زرار CC في المشغّل): اكتب السطور على الصورة، حدّد بداية ونهاية كل سطر على شريط زمني تقدر تكبّره، اسحب النص للمكان اللي عايزه، واختار الحجم واللون والخلفية والحدود والظل والخط والعريض/المائل والظهور التدريجي – للترجمة كلها أو لسطر واحد.",
+      "أدوات الضبط الدقيق: تحريك بـ 0.1 ثانية، تقسيم ودمج ونسخ السطور، تحريك الكل (أو من هنا لقدّام)، مزامنة بنقطتين، مدّة تلقائية حسب سرعة القراءة، بحث واستبدال، لصق نص كامل يتحوّل سطور، فحص التداخل والقراءة السريعة جدًا، تراجع وإعادة، وبيتحفظ لوحده وانت شغّال.",
+      "احفظها كملف عادي: صدّر SRT أو VTT أو ASS (وبيحافظ على تنسيقك) للموبايل، أو احفظها في مكتبتك جنب الفيديو. استورد أي SRT / VTT / ASS وكمّل تعديل – وتقدر تعمل أكتر من ترجمة للفيديو الواحد.",
+      "في المشغّل: «توقيت الترجمة» الجديد (قدّمها أو أخّرها وانت بتتفرّج)، وترجمتك المنسّقة بتظهر زي ما صمّمتها بالظبط حتى لو الفيديو مكبّر لملء الشاشة.",
+      "الإشعارات: جرس بعدّاد أحمر. المالك بيضغط + عشان يكتب للكل (بصوت أو من غير)، والكل بيقرأها في قايمة واحدة.",
+      "الاختبار والنشر (للمالك): النسخ الجديدة بتتحدّث على موبايلك إنت الأول؛ ولما تتأكد، ابعتها للأعضاء كبيتا أو مستقرّة مع ملاحظاتك بالإنجليزي والعربي.",
+      "الاشتراكات والأكواد والإعدادات والسبورة والملاحظات بقوا أقسام لوحدهم، والإعدادات فيها بحث وفئات واضحة. ومقدّمة القسم بتظهر فورًا من غير ما الصفحة اللي تحتها تلمع.",
+      "المشغّل: شريط «آخر الفيديوهات»، وعلامة الكاميرا الحمرا اتشالت من كروت الفيديو، والفيديو الجديد بيظهر فورًا من غير سحب للتحديث."
+    ]
+  },
+  "web": true
+}
