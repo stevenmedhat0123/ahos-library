@@ -1,0 +1,24 @@
+{
+  "version": "0.9.3-Fixed2",
+  "build": 22,
+  "channel": "stable",
+  "repo": "stevenmedhat0123/ahos-library",
+  "server": "https://shy-king-cae3ahos-access.stephenmedhat12.workers.dev",
+  "whatsNew": {
+    "en": [
+      "Screen: the dark strip + navy band with \"AHOS Library\" at the top of every screen is gone for good. The app no longer builds its window before it is ready (that is what let a title bar sit over every page), it asks the phone for a window without any title or action bar, and a guard hides anything at the top that is not your page. Back buttons and headers show normally and can be tapped, like 0.9.1.",
+      "Hide front camera (ColorOS Full screen for apps): the app now tells the phone it handles the camera area itself and draws the page behind it, so there is no black line. Settings > General > Camera area is set to Fill; choose Phone decides or Below the camera if you prefer.",
+      "Settings > General > Screen check now also lists anything the guard hid and the window's views. If anything at the top still looks wrong, send a screenshot of it.",
+      "Reading a PDF: a new Cut button (scissors) sits on the book – on the book controls in flip-book view, in the top bar in scroll view. Tap it and a see-through blue area appears over the page: drag it, drag a corner or an edge to resize it, or drag on the page to draw a new one. Tap the tick and a copy of that part is taken out of the book onto a new board, enlarged and ready to solve beside it. The cross (or Back) cancels.",
+      "An area over both pages of a spread takes both parts side by side. A tilted book view stands flat while you place the area and goes back afterwards."
+    ],
+    "ar": [
+      "الشاشة: الشريط الغامق + الشريط الكحلي اللي مكتوب فيه «AHOS Library» فوق كل شاشة اتشالوا نهائيًا. التطبيق مبقاش يبني نافذته قبل ما يجهز (وده اللي كان بيخلّي شريط عنوان يقعد فوق كل صفحة)، وبيطلب من الموبايل نافذة من غير أي عنوان أو أكشن بار، وفي حارس بيخفي أي حاجة فوق مش هي صفحتك. زرار الرجوع والهيدر بيظهروا عادي ويتدعسوا زي 0.9.1.",
+      "إخفاء الكاميرا الأمامية (ملء الشاشة للتطبيقات في ColorOS): التطبيق بقى يقول للموبايل إنه بيتعامل مع منطقة الكاميرا بنفسه ويرسم الصفحة ورا الكاميرا، فمفيش خط أسود. الإعدادات > عام > منطقة الكاميرا بقت «ملء»؛ ولو عايز اختار «الموبايل يقرر» أو «تحت الكاميرا».",
+      "الإعدادات > عام > فحص الشاشة بقى كمان بيعرض أي حاجة الحارس خبّاها وعناصر النافذة. لو أي حاجة فوق لسه مش مظبوطة ابعتلي سكرين منها.",
+      "قراءة الـPDF: زرار «قص» جديد (مقص) فوق الكتاب – في أزرار الكتاب في وضع التقليب، وفي الشريط العلوي في وضع التمرير. دوس عليه وتظهر مساحة زرقاء شفافة فوق الصفحة: اسحبها، أو اسحب ركن أو حافة لتغيير الحجم، أو اسحب على الصفحة لرسم مساحة جديدة. دوس علامة ✓ فتطلع نسخة من الجزء ده برّا الكتاب على سبورة جديدة، مكبّرة وجاهزة تحل جنبها. علامة ✗ (أو رجوع) تلغي.",
+      "لو المساحة على الصفحتين مع بعض بيتاخد الجزءين جنب بعض. ولو منظر الكتاب مايل بيتعدل مؤقتًا وقت تحديد المساحة وبعدين يرجع."
+    ]
+  },
+  "web": true
+}
